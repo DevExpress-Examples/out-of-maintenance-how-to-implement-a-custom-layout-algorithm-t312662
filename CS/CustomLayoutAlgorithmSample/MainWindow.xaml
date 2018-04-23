@@ -1,0 +1,51 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:CustomLayoutAlgorithmSample"
+        xmlns:dxtm="http://schemas.devexpress.com/winfx/2008/xaml/treemap"
+        x:Class="CustomLayoutAlgorithmSample.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <!--region #LayoutAlgorithm-->
+        <dxtm:TreeMapControl>
+            <dxtm:TreeMapControl.LayoutAlgorithm>
+                <local:CustomSliceAndDiceLayoutAlgorithm/>
+            </dxtm:TreeMapControl.LayoutAlgorithm>
+            <!--endregion #LayoutAlgorithm-->
+            <dxtm:TreeMapControl.Colorizer>
+                <dxtm:TreeMapPaletteColorizer/>
+            </dxtm:TreeMapControl.Colorizer>
+            <dxtm:TreeMapItemStorage>
+                <dxtm:TreeMapItem Label="Americas">
+                    <dxtm:TreeMapItem Label="United States"
+                                      Value="11384763"/>
+                    <dxtm:TreeMapItem Label="Brazil"
+                                      Value="1799612"/>
+                    <dxtm:TreeMapItem Label="Canada"
+                                      Value="1572781"/>
+                </dxtm:TreeMapItem>
+                <dxtm:TreeMapItem Label="Europe">
+                    <dxtm:TreeMapItem Label="Germany"
+                                      Value="3371003"/>
+                    <dxtm:TreeMapItem Label="United Kingdom"
+                                      Value="2582021"/>
+                    <dxtm:TreeMapItem Label="France"
+                                      Value="2422649"/>
+                    <dxtm:TreeMapItem Label="Italy"
+                                      Value="1809047"/>
+                </dxtm:TreeMapItem>
+                <dxtm:TreeMapItem Label="Asia">
+                    <dxtm:TreeMapItem Label="China"
+                                      Value="17968195"/>
+                    <dxtm:TreeMapItem Label="Japan"
+                                      Value="4116242"/>
+                    <dxtm:TreeMapItem Label="India"
+                                      Value="2864903"/>
+                </dxtm:TreeMapItem>
+            </dxtm:TreeMapItemStorage>
+            <!--region #CloseTag-->
+            <!-- ... -->
+        </dxtm:TreeMapControl>
+        <!--endregion #CloseTag-->
+    </Grid>
+</Window>
