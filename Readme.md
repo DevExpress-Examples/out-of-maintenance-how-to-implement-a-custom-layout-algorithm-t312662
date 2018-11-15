@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/CustomLayoutAlgorithmSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomLayoutAlgorithmSample/MainWindow.xaml))
+* **[SliceAndDiceLayoutAlgorithm.cs](./CS/CustomLayoutAlgorithmSample/SliceAndDiceLayoutAlgorithm.cs) (VB: [SliceAndDiceLayoutAlgorithm.vb](./VB/CustomLayoutAlgorithmSample/SliceAndDiceLayoutAlgorithm.vb))**
+<!-- default file list end -->
 # How to implement a custom layout algorithm
 
 
