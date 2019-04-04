@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/CustomLayoutAlgorithmSample/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/CustomLayoutAlgorithmSample/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/CustomLayoutAlgorithmSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomLayoutAlgorithmSample/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/CustomLayoutAlgorithmSample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomLayoutAlgorithmSample/MainWindow.xaml.vb))
 * [SliceAndDiceLayoutAlgorithm.cs](./CS/CustomLayoutAlgorithmSample/SliceAndDiceLayoutAlgorithm.cs) (VB: [SliceAndDiceLayoutAlgorithm.vb](./VB/CustomLayoutAlgorithmSample/SliceAndDiceLayoutAlgorithm.vb))
 <!-- default file list end -->
